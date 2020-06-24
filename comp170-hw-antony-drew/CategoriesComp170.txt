@@ -1,0 +1,4 @@
+﻿Exams,Labs,Homework,Project,Class Participation
+20,20,20,20,20
+2,2,2,1,1
+ 

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceLab", "PerformanceLab.csproj", "{3FB35E7D-A4CE-4C5C-A429-500CB32783A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerfFuncs", "PerfFuncs\PerfFuncs.csproj", "{CC872DB2-307D-4BBC-B121-817EFA23CB32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FB35E7D-A4CE-4C5C-A429-500CB32783A6}.Debug|x86.ActiveCfg = Debug|x86
+		{3FB35E7D-A4CE-4C5C-A429-500CB32783A6}.Debug|x86.Build.0 = Debug|x86
+		{3FB35E7D-A4CE-4C5C-A429-500CB32783A6}.Release|x86.ActiveCfg = Release|x86
+		{3FB35E7D-A4CE-4C5C-A429-500CB32783A6}.Release|x86.Build.0 = Release|x86
+		{CC872DB2-307D-4BBC-B121-817EFA23CB32}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CC872DB2-307D-4BBC-B121-817EFA23CB32}.Debug|x86.Build.0 = Debug|Any CPU
+		{CC872DB2-307D-4BBC-B121-817EFA23CB32}.Release|x86.ActiveCfg = Release|Any CPU
+		{CC872DB2-307D-4BBC-B121-817EFA23CB32}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = PerformanceLab.csproj
+	EndGlobalSection
+EndGlobal

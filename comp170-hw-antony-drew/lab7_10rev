@@ -1,0 +1,128 @@
+using System;
+
+//using System.Collections.Generic;
+
+//using System.Linq;
+
+//using System.Text;
+
+//using System.IO;
+
+namespace Comp170
+
+{
+
+    class Lab7_10
+
+    {
+
+        public static string InputLine(string prompt)                                               // prompt for input and read line function provided by central planning
+
+        {
+
+            Console.Write(prompt);
+
+            return Console.ReadLine();
+
+        }
+
+        public static int IntInput(string prompt)                                                   // return integer function provided by central planning 
+
+        {
+
+            string nStr = InputLine(prompt).Trim();                                                 // Trim removes enclosing blanks
+
+            return int.Parse(nStr);
+
+        }
+
+        public static double DblInput(string prompt)                                                // return double function provided by central planning 
+
+        {
+
+            string nStr = InputLine(prompt).Trim();                                                 // Trim removes enclosing blanks
+
+            return double.Parse(nStr);
+
+        }
+
+                                    
+
+        
+
+        public static void Main()
+
+        {
+
+            int guess, count, bound;   //declare vars
+
+           
+
+			//big = 100;
+
+			count=0;
+			
+			bound = IntInput("Enter an upper limit number for guessing game: ");
+
+			Random r = new Random();
+
+			int secret = r.Next(1, bound);
+			
+			
+			
+
+            do
+
+            {
+
+                                                                                                            // done with Do WHILE loop now - enter weights and check for right integer input format via function call for input/parse                   
+
+           
+
+                guess = IntInput("Guess a number from 1 to "+bound+": ");
+
+                count=count+1;
+
+                Console.WriteLine("You entered {0}: ", guess);
+
+           
+
+                if (guess > secret)        // check that grades do NOT add up to more than 500 (5x100) in do while loop
+
+                {
+
+                    Console.WriteLine("You guessed too high - try again goofy!");
+
+                }
+
+				else if (guess < secret)
+
+				{
+
+					Console.WriteLine("You guessed too low - try again goofy!");
+
+                }	
+
+				else
+
+				{
+
+					Console.WriteLine("You guessed correct in {0} attempts - you do have some brain cells left after all!", count);
+
+                }		
+
+            } while (guess != secret);    
+
+            
+           
+
+              
+
+            Console.ReadLine();
+
+        }
+
+    }
+
+}
+

@@ -1,0 +1,32 @@
+{
+  "$id": "5",
+  "AutoRefresh": true,
+  "AutoRefreshRemotes": true,
+  "CommitTextLinks": null,
+  "DraftCommitMsg": "",
+  "IncomingSavedCount": 0,
+  "LastCheckedRemotes": "0001-01-01T00:00:00",
+  "LastUsedView": 1,
+  "LogBranchFilterIndex": 0,
+  "OutgoingSavedCount": 0,
+  "SidebarExpandedItems": [
+    "Branches"
+  ],
+  "SidebarWidth": 210.0,
+  "SubtreeLinks": [],
+  "RemoteProjectLinks": [
+    {
+      "$id": "6",
+      "BaseUrl": "https://bitbucket.org/",
+      "Identifier": "",
+      "RemoteName": "default",
+      "Type": 0,
+      "Username": "adrew",
+      "CloneUrl": "https://adrew@bitbucket.org/adrew/comp170-hw-antony-drew",
+      "ProjectUrl": "https://bitbucket.org/adrew/comp170-hw-antony-drew",
+      "AccountId": "adrew@bitbucket.org",
+      "AvatarUrl": "https://bytebucket.org/ravatar/%7Bb19a0e16-b3ee-4df3-ad80-45d5c6177932%7D?ts=c_sharp",
+      "DisplayName": "default: https://bitbucket.org/"
+    }
+  ]
+}

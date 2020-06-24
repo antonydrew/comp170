@@ -1,0 +1,4 @@
+Name: Last, First	Avg  Gr 	E	L	H	P	C
+Thiruvathukal, George	89.3 B+		81.3	85.0	90.0	90.0	100.0
+Harrington, Andrew	87.0 B+		90.0	85.0	90.0	90.0	80.0
+
